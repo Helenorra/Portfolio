@@ -1,0 +1,67 @@
+@import url
+nav {
+    text-decoration: ;
+    color: var(--primary);
+    padding: 10
+}
+h1 { 
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {   
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 4px;
+    margin-top: 15px;
+    border: 1px solid #333;
+    font-family: Open Sans;
+}
+.highlight {
+    background-color:lightgreen;
+    ;
+}
+#container {
+    background-color: DDDDDD;
+    height: 250px;
+}
+.left {
+    float: left;
+    padding-left: 15px;
+}
+.separator {
+    width: auto;
+}
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+.left {
+  float: left;
+  height: 500px;
+  background-color: lightblue;
+  width: 30%;
+  text-align: center;
+}
+.right {
+  float: left;
+  background-color: lightgreen;
+  height: 500px;
+  width: 70%;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
+}
