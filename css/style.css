@@ -1,0 +1,139 @@
+@import url(./variables.css);
+@import url(./button.css);
+@import url(./card.css);
+body{
+    margin: 0;
+    font-family: var(--bodyFont);
+    background: var(--Primary-gradient);
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: var(--h3-fontSize);
+}
+h4{
+    font-size: var(--h4-fontSize);
+}
+h5{
+    font-size: var(--h5-fontSize);
+}
+.topNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1320px;
+    margin: auto;
+}
+.logo{
+    height: 48px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Primary);
+    padding: 10px;
+}
+
+nav a:hover{
+    color: var(--Primary);
+}
+
+nav a.active{
+    color: var(--Secondary-dark);
+}
+.hero{
+    padding: 80px 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1320px;
+    justify-content: center;
+    margin: auto;
+    column-gap: 20px;
+}
+.headShot{
+    width: 365px;
+    padding: 34px 40px;
+}
+
+.avatar{
+    width: 100%;
+}
+.heroContent{
+    max-width: 613px;
+}
+
+.projects h4{
+    text-align: center;
+}
+
+
+.heroImg {
+    background-color: #EBEBEB;
+    padding: 100px 15px;
+  }
+  .content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    
+/* My UX Skills Section */
+.flexContainer {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+
+.block_element {
+  background-color:#D4DACE;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 { 
+  margin: 0px 5%;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p {   
+  margin: 0px 5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.highlight {
+    background-color:lightgreen;
+    ;
+}
+#container {
+    background-color: DDDDDD;
+    height: 500px;
+}
+.left {
+    float: center;
+    padding-left: 15px;
+}
+.separator {
+    width: auto;
+}
+
+
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+
+
